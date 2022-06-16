@@ -1,5 +1,5 @@
 import { Component, Input, OnInit, EventEmitter, Output, NgModule } from '@angular/core';
-import { TodoTasks } from '../app.component';
+import { TodoTasks } from '../AppComponent/app.component';
 
 @Component({
   selector: 'app-item',
