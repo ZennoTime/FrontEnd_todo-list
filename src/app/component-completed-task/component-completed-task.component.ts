@@ -1,5 +1,5 @@
 import { Component, Input, EventEmitter, Output } from '@angular/core';
-import { TodoTasks } from '../app.component';
+import { TodoTasks } from '../AppComponent/app.component';
 
 @Component({
   selector: 'app-component-completed-task',
@@ -7,7 +7,7 @@ import { TodoTasks } from '../app.component';
   styleUrls: ['./component-completed-task.component.css']
 })
 
-export class ComponentCompletedTaskComponent{
+export class CompletedTaskComponent{
   @Input() todoTask?: TodoTasks;
   @Output() onDeleteTask = new EventEmitter();
 
